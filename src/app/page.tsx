@@ -12,9 +12,9 @@ const Home = ({
   const vehicles = getVehiclesOfType(filter)
 
   return (
-    <div className="flex gap-6 w-full flex-col">
+    <div className="flex w-full flex-col gap-6">
       <CarSelect vehicles={vehicles} />
-      <div className="grid grid-cols-[repeat(auto-fill,_minmax(320px,_1fr))] gap-8 justify-between">
+      <div className="grid grid-cols-[repeat(auto-fill,_minmax(320px,_1fr))] justify-between gap-8">
         {vehicles.map((vehicle) => (
           <CarCard key={vehicle.id} vehicle={vehicle} />
         ))}

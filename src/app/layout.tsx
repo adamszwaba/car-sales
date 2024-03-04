@@ -18,9 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="flex min-h-screen flex-col items-center gap-8 container p-4 md:p-8 mx-auto">
+        <main className="container mx-auto flex min-h-screen flex-col items-center gap-8 p-4 md:p-8">
           <div className="max-w-lg">
-            <h2 className="text-xl md:text-2xl text-center">Text lorem ipsum</h2>
+            <h2 className="text-center text-xl md:text-2xl">Text lorem ipsum</h2>
             <p className="text-center text-xs md:text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nesciunt, excepturi
               eveniet deserunt accusantium placeat distinctio aliquid alias soluta aspernatur
